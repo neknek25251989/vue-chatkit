@@ -16,10 +16,10 @@ export default new Vuex.Store({
     state: {
         loading: false,
         sending: false,
-        error: null,
-        user: [],
+        error: 'Relax! This is just a drill error message',
+        user: {},
         reconnect: false,
-        activeRoom: null,
+        activeRoom: {},
         rooms: [],
         users: [],
         messages: [],
